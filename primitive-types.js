@@ -32,3 +32,12 @@ console.log(math)
 const text = "math"
 
 console.log (text * firstNumber)
+
+// Strings
+
+const text1 = "Hello, world"
+
+const text2 = "Pablo said 'hi'"
+
+//Template string
+
