@@ -18,7 +18,7 @@ console.log(mathMultiply)
 console.log(mathDivision)
 console.log(mathMinus)
 
-//float
+//Float
 
 const floatNumber = 3.3
 const floatNumberWhithoutZero = .5
@@ -39,8 +39,17 @@ const text1 = "Hello, world"
 
 const text2 = "Pablo said 'hi'"
 
-//Template string
+// Concatenation
 
+console.log(text1 + text2)
 
+// Template string
 
-//undefined
+console.log(`2 + 1 is ${mathSum}`)
+
+//boolean
+
+const num1 = 5
+const num2 = 10
+
+console.log (num1 === num2)
