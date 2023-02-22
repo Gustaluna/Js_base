@@ -5,9 +5,14 @@ const listOfStudentsAndAvarages = [students, avarages ];
 
 function showGrade(student){
     if (listOfStudentsAndAvarages[0].includes(student)) {    
-        const index = listOfStudentsAndAvarages[0].indexOf(student)
+        // const students = listOfStudentsAndAvarages[0]
+        // const avarages = listOfStudentsAndAvarages[1]
 
-        const avaragesStudent = listOfStudentsAndAvarages[1][index]
+        const [students, avarages] = listOfStudentsAndAvarages
+
+        const index = students.indexOf(student)
+
+        const avaragesStudent = avarages[index]
 
         console.log(`${student} have the avarage ${avaragesStudent}.`)
     }else{
