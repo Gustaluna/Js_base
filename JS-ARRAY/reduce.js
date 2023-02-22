@@ -10,6 +10,6 @@ function calculateGrades(gradesOfClass) {
     return average
 }
 
-console.log(`The avarage of the JavaScript is${calculateGrades(JSClass)}`)
-console.log(`The avarage of the JavaScript is${calculateGrades(JavaClass)}`)
-console.log(`The avarage of the JavaScript is${calculateGrades(PythonClass)}`)
+console.log(`The average of the JavaScript is${calculateGrades(JSClass)}`)
+console.log(`The average of the JavaScript is${calculateGrades(JavaClass)}`)
+console.log(`The average of the JavaScript is${calculateGrades(PythonClass)}`)

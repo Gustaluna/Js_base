@@ -7,6 +7,6 @@ for (i = 0; i < grades.length; i++){
 
 }
 
-const avarage = sumOfGrades / grades.length
+const average = sumOfGrades / grades.length
 
-console.log(`The avarage of grades is ${avarage}`)
+console.log(`The avarage of grades is ${average}`)

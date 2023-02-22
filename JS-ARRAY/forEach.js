@@ -6,6 +6,6 @@ grades.forEach((grade) => {
     sumOfGrades += grade
 })
 
-const avarage = sumOfGrades / grades.length
+const average = sumOfGrades / grades.length
 
-console.log(`The avarage of grades is ${avarage}`)
+console.log(`The average of grades is ${average}`)

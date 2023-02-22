@@ -4,6 +4,6 @@ grades.pop()
 
 console.log(grades)
 
-const avarage = (grades [0] + grades [1] + grades [2] + grades[3]) / grades.length
+const average = (grades [0] + grades [1] + grades [2] + grades[3]) / grades.length
 
-console.log(`The avarage is ${avarage}`) 
+console.log(`The average is ${average}`) 
