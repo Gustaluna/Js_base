@@ -2,7 +2,7 @@ const client = {
     name: "John",    
     age: 24,
     email: "john@email.com",
-    phone: ["111333223", "311333223"]
+    phone: ["111333223", "311333983"]
 };
 
 client.adress = [
@@ -20,3 +20,5 @@ console.log(objectsKeys)
 if (!objectsKeys.includes("adresss")){
     console.error("Is necessary to have an address")
 }
+
+console.log(client)
