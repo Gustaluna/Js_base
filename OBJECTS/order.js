@@ -1,4 +1,4 @@
-const clients = require("./client.json")
+const clients = require("./newClients.json")
 
 function order(list, proprety){
     const result = list.sort((a,b) =>{
@@ -15,3 +15,5 @@ function order(list, proprety){
 }
 
 const orderName = order(clients, "nome")
+
+console.log(orderName)
